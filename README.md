@@ -38,6 +38,8 @@ Android `SpeechRecognizer` API 的最小可视化测试应用，用于验证系�
 1. Android 11 及以上版本对包可见性有限制；本应用在 Manifest 中声明了 `RecognitionService` 查询，以便列举可用服务。
 2. `ERROR_INSUFFICIENT_PERMISSIONS` 常见原因是测试应用与所选识别服务应用的麦克风权限状态不一致；两者均需被授予权限，并在授予权限后至少各自启动过一次。
 3. 识别的音频处理行为取决于所选 `RecognitionService` 的实现；本应用仅调用系统 API 并展示回调结果。
+4. SpeechReconizer API 官方文档：[Android Developers](https://developer.android.com/reference/android/speech/SpeechRecognizer)
+5. RecognitionService API 官方文档：[Android Developers](https://developer.android.com/reference/android/speech/RecognitionService)
 
 ## 许可证
 
