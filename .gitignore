@@ -3,3 +3,5 @@
 .kotlin/
 
 app/build/
+app/release/
+app/debug/
