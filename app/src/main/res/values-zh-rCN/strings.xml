@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SpeechRecognizer 测试器</string>
+
+    <string name="section_service">识别服务</string>
+    <string name="section_controls">控制</string>
+    <string name="section_results">结果</string>
+    <string name="section_log">日志</string>
+
+    <string name="label_select_service">选择一个 SpeechRecognizer 服务</string>
+    <string name="label_service_info_placeholder">尚未选择服务</string>
+    <string name="label_service_info">当前服务：%1$s\n组件：%2$s\n绑定权限：%3$s\n导出：%4$s\n启用：%5$s</string>
+    <string name="label_permission_none">无</string>
+
+    <string name="btn_refresh">刷新列表</string>
+    <string name="btn_start">开始识别</string>
+    <string name="btn_stop">停止</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_copy_log">复制日志</string>
+    <string name="btn_clear_log">清空日志</string>
+
+    <string name="label_enable_partial">启用中间结果 (EXTRA_PARTIAL_RESULTS)</string>
+    <string name="hint_language_tag">语言标签，例如 zh-CN / en-US</string>
+
+    <string name="label_rms_default">RMS: -</string>
+    <string name="label_rms_value">RMS: %1$.1f dB</string>
+    <string name="label_partial_result">中间结果</string>
+    <string name="label_final_result">最终结果</string>
+
+    <string name="msg_no_services">未发现任何 SpeechRecognizer 服务</string>
+    <string name="msg_select_service_first">请先选择一个识别服务</string>
+    <string name="msg_speech_not_available">系统不支持 SpeechRecognizer</string>
+    <string name="msg_record_permission_denied">麦克风权限被拒绝，无法进行语音识别</string>
+    <string name="msg_bind_service">绑定服务: %1$s</string>
+    <string name="msg_bind_service_failed">绑定服务失败：%1$s\n原因：%2$s</string>
+    <string name="msg_bind_service_failed_short">绑定服务失败，请查看日志</string>
+    <string name="msg_start_recognition">开始识别: %1$s</string>
+    <string name="msg_start_failed">startListening 失败: %1$s</string>
+    <string name="msg_recognizer_not_ready">SpeechRecognizer 未就绪，请重新选择服务或刷新列表</string>
+    <string name="msg_log_copied">日志已复制到剪贴板</string>
+    <string name="label_clipboard_log">SpeechRecognizer 日志</string>
+    <string name="msg_error_insufficient_permissions_detailed">
+        ERROR_INSUFFICIENT_PERMISSIONS：请确认本测试应用与所选识别服务应用均已被系统授予麦克风权限，并在授予权限后各自至少启动过一次。
+    </string>
+</resources>
+

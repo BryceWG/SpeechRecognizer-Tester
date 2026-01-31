@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SpeechRecognizer 測試器</string>
+
+    <string name="section_service">識別服務</string>
+    <string name="section_controls">控制</string>
+    <string name="section_results">結果</string>
+    <string name="section_log">日誌</string>
+
+    <string name="label_select_service">選擇一個 SpeechRecognizer 服務</string>
+    <string name="label_service_info_placeholder">尚未選擇服務</string>
+    <string name="label_service_info">目前服務：%1$s\n元件：%2$s\n綁定權限：%3$s\n匯出：%4$s\n啟用：%5$s</string>
+    <string name="label_permission_none">無</string>
+
+    <string name="btn_refresh">更新列表</string>
+    <string name="btn_start">開始識別</string>
+    <string name="btn_stop">停止</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_copy_log">複製日誌</string>
+    <string name="btn_clear_log">清空日誌</string>
+
+    <string name="label_enable_partial">啟用中間結果 (EXTRA_PARTIAL_RESULTS)</string>
+    <string name="hint_language_tag">語言標籤，例如 zh-CN / en-US</string>
+
+    <string name="label_rms_default">RMS: -</string>
+    <string name="label_rms_value">RMS: %1$.1f dB</string>
+    <string name="label_partial_result">中間結果</string>
+    <string name="label_final_result">最終結果</string>
+
+    <string name="msg_no_services">未發現任何 SpeechRecognizer 服務</string>
+    <string name="msg_select_service_first">請先選擇一個識別服務</string>
+    <string name="msg_speech_not_available">系統不支援 SpeechRecognizer</string>
+    <string name="msg_record_permission_denied">麥克風權限被拒絕，無法進行語音識別</string>
+    <string name="msg_bind_service">綁定服務：%1$s</string>
+    <string name="msg_bind_service_failed">綁定服務失敗：%1$s\n原因：%2$s</string>
+    <string name="msg_bind_service_failed_short">綁定服務失敗，請查看日誌</string>
+    <string name="msg_start_recognition">開始識別：%1$s</string>
+    <string name="msg_start_failed">startListening 失敗：%1$s</string>
+    <string name="msg_recognizer_not_ready">SpeechRecognizer 尚未就緒，請重新選擇服務或更新列表</string>
+    <string name="msg_log_copied">日誌已複製到剪貼簿</string>
+    <string name="label_clipboard_log">SpeechRecognizer 日誌</string>
+    <string name="msg_error_insufficient_permissions_detailed">
+        ERROR_INSUFFICIENT_PERMISSIONS：請確認本測試應用與所選識別服務應用均已被系統授予麥克風權限，並在授予權限後各自至少啟動過一次。
+    </string>
+</resources>
+

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SpeechRecognizer テスター</string>
+
+    <string name="section_service">認識サービス</string>
+    <string name="section_controls">コントロール</string>
+    <string name="section_results">結果</string>
+    <string name="section_log">ログ</string>
+
+    <string name="label_select_service">SpeechRecognizer サービスを選択</string>
+    <string name="label_service_info_placeholder">サービス未選択</string>
+    <string name="label_service_info">サービス：%1$s\nコンポーネント：%2$s\n必要な権限：%3$s\nエクスポート：%4$s\n有効：%5$s</string>
+    <string name="label_permission_none">なし</string>
+
+    <string name="btn_refresh">更新</string>
+    <string name="btn_start">開始</string>
+    <string name="btn_stop">停止</string>
+    <string name="btn_cancel">キャンセル</string>
+    <string name="btn_copy_log">ログをコピー</string>
+    <string name="btn_clear_log">ログをクリア</string>
+
+    <string name="label_enable_partial">途中結果を有効化 (EXTRA_PARTIAL_RESULTS)</string>
+    <string name="hint_language_tag">言語タグ 例：zh-CN / en-US</string>
+
+    <string name="label_rms_default">RMS: -</string>
+    <string name="label_rms_value">RMS: %1$.1f dB</string>
+    <string name="label_partial_result">途中結果</string>
+    <string name="label_final_result">最終結果</string>
+
+    <string name="msg_no_services">SpeechRecognizer サービスが見つかりません</string>
+    <string name="msg_select_service_first">先に認識サービスを選択してください</string>
+    <string name="msg_speech_not_available">この端末では SpeechRecognizer を利用できません</string>
+    <string name="msg_record_permission_denied">マイク権限が拒否されました。音声認識を開始できません</string>
+    <string name="msg_bind_service">サービスにバインド: %1$s</string>
+    <string name="msg_bind_service_failed">サービスのバインドに失敗: %1$s\n理由: %2$s</string>
+    <string name="msg_bind_service_failed_short">サービスのバインドに失敗しました。ログを確認してください</string>
+    <string name="msg_start_recognition">リスニング開始: %1$s</string>
+    <string name="msg_start_failed">startListening に失敗: %1$s</string>
+    <string name="msg_recognizer_not_ready">SpeechRecognizer が準備できていません。サービスを再選択するか一覧を更新してください</string>
+    <string name="msg_log_copied">ログをクリップボードにコピーしました</string>
+    <string name="label_clipboard_log">SpeechRecognizer ログ</string>
+    <string name="msg_error_insufficient_permissions_detailed">
+        ERROR_INSUFFICIENT_PERMISSIONS: このアプリと選択した認識サービスのアプリの両方にマイク権限が付与されていることを確認してください。権限付与後、それぞれのアプリを一度起動してください。
+    </string>
+</resources>
+
